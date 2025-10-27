@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <span id="list" onclick="showlist()">Click Here to Show Favorite List</span><br>
+
+        <script>
+            function showlist() {
+                var favoriteitems = ["rubiks cube","phone","watch","airpods","wallet","cane's sauce","tape measure","drum sticks","keys","super glue"] //array for all ten items
+
+                document.write("<ul>");
+
+                //loops through all the values in the favoriteitems array
+                for( var i = 0; i < favoriteitems.length; i++ ) {
+                    document.write("<li>" + favoriteitems[i] + "</li>");
+                }
+            }
+        
+            document.write("<ul>");
+
+        </script>
+    </body>
+</html>
